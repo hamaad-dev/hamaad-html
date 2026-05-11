@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    height: 60px;
+    background-color: rgb(61, 56, 56);
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+    
+}
+
+#logo{
+    font-size: 70px;
+    color: rgb(166, 154, 69);
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input{
+    padding: 10px 30px 10px 15px ;
+    font-size: 15px;
+}
+
+.nav-btn{
+    padding: 9.5px 20px ;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+
+}
+
+body{
+        min-height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,30 @@
+/* element/tag selector  */
+h1{
+  font-family: "Playwrite NO", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding: 5px 10px;
+  border-radius: 10px;
+} 
+
+
+h3{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  background: lightgray;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+
+#style{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+

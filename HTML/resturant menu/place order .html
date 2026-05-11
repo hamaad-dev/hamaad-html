@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 style="border: 2px solid black; background-color: rgb(239, 223, 163)">
+      <u><center>Required Details</center></u>
+    </h2>
+    <form action="index.html">
+      <label for="your name">Your name</label>
+      <input
+        type="text"
+        name="Your name"
+        placeholder="Full name"
+        required="required"
+      />
+
+      <label for="Email">Email</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="@gmail.com"
+        required="required"
+      />
+      <br />
+      <br />
+      <label for="Dish name">Dish name</label>
+      <input
+        type="text"
+        name="Dish name"
+        placeholder="Dish name"
+        required="required"
+      />
+      <label for="phone number">Ph: no</label>
+      <input
+        type="tel"
+        name="Phone "
+        placeholder="Ph:no:"
+        required="required"
+      />
+      <br />
+      <br />
+      <label for="quantity">Quantity</label>
+      <input type="number" name="Quantity" min="1" required="required" />
+
+      &nbsp;&nbsp;&nbsp;<label for="Select dish">Select dish</label>
+      <select name="Select dish" id="">
+        <option value="Daal mash">Daal mash</option>
+        <option value="Daal chana">Daal chana</option>
+        <option value="Aalo palak">Aalo palak</option>
+      </select>
+      <br />
+      <br />
+      <label for="Address">Address:</label>
+      <textarea name="Address" rows="3"></textarea>
+      <br />
+      <br />
+      <button type="submit">Place your order</button>
+    </form>
+  </body>
+</html>
